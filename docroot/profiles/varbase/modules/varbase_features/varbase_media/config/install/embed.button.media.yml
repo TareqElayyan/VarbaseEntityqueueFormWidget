@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.image
+  module:
+    - entity_embed
+    - media_entity
+label: media
+id: media
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - image
+  display_plugins:
+    - 'view_mode:media.full'
+    - 'view_mode:media.large'
+    - 'view_mode:media.medium'
+    - 'view_mode:media.small'
+    - 'view_mode:media.xlarge'
+    - 'view_mode:media.xsmall'
+  entity_browser: editor_media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: null

@@ -1,0 +1,109 @@
+name: Varbase
+type: profile
+description: 'Varbase is an enhanced Drupal distribution with a lot of necessities.'
+core: 8.x
+version: 8.4.03.0
+dependencies:
+    - automated_cron
+    - block
+    - block_content
+    - breakpoint
+    - ckeditor
+    - color
+    - config
+    - contextual
+    - datetime
+    - dynamic_page_cache
+    - editor
+    - filter
+    - entity_reference
+    - field
+    - field_ui
+    - file
+    - help
+    - history
+    - image
+    - menu_link_content
+    - menu_ui
+    - node
+    - options
+    - page_cache
+    - path
+    - quickedit
+    - responsive_image
+    - search
+    - shortcut
+    - syslog
+    - taxonomy
+    - telephone
+    - toolbar
+    - tour
+    - update
+    - views
+    - user
+    - text
+    - outside_in
+    - layout_discovery
+    - entity
+    - config_update
+    - ctools
+    - ctools_block
+    - ctools_views
+    - token
+    - page_manager
+    - page_manager_ui
+    - panels
+    - panelizer
+    - bootstrap_layouts
+    - ds
+    - ds_extras
+    - ds_switch_view_mode
+    - views_bootstrap
+    - field_group
+    - smart_trim
+    - advanced_text_formatter
+    - block_class
+    - menu_block
+    - features
+    - linkit
+    - anchor_link
+    - views_infinite_scroll
+    - entityqueue
+    - embed
+    - entity_browser
+    - entity_browser_enhanced
+    - dropzonejs
+    - dropzonejs_eb_widget
+    - entity_embed
+    - inline_entity_form
+    - media_entity
+    - media_entity_document
+    - media_entity_image
+    - video_embed_media
+    - video_embed_wysiwyg
+    - crop
+    - focal_point
+    - pathologic
+    - persistent_login
+    - captcha
+    - recaptcha
+    - ultimate_cron
+    - content_lock
+    - content_lock_timeout
+    - rabbit_hole
+    - rh_node
+    - rh_taxonomy
+    - fast404
+    - imageapi_optimize
+    - mailsystem
+    - smtp
+themes:
+    - adminimal_theme
+    - bootstrap
+    - vartheme
+    - vartheme_admin
+distribution:
+    name: Varbase
+features: true
+project: varbase
+datestamp: 1495111295

@@ -1,0 +1,15 @@
+name: 'Varbase Development'
+description: 'Development Environment Modules and Features, make sure to disable this feature in production.'
+type: module
+dependencies:
+    - config_update_ui
+    - dblog
+    - devel
+    - features_ui
+    - libraries_ui
+    - views_ui
+package: Varbase
+version: 8.4.03.0
+core: 8.x
+project: varbase
+datestamp: 1495111295

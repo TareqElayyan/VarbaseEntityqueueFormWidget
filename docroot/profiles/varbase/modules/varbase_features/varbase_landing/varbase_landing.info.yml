@@ -1,0 +1,22 @@
+name: 'Varbase Landing'
+description: 'Landing page content type and related configurations.'
+type: module
+dependencies:
+  1: ds
+  2: field
+  4: menu_ui
+  5: metatag
+  6: node
+  7: panelizer
+  8: panelizer_quickedit
+  9: path
+  10: pathauto
+  11: rabbit_hole
+  12: user
+  13: varbase_seo
+  14: yoast_seo
+package: Varbase
+version: 8.4.03.0
+core: 8.x
+project: varbase
+datestamp: 1495111295

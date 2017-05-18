@@ -1,0 +1,25 @@
+name: 'Varbase Page'
+description: 'Provides Basic page content type and related configuration.'
+type: module
+dependencies:
+  1: ds
+  2: field
+  4: menu_ui
+  5: metatag
+  6: node
+  7: page_manager
+  8: panelizer
+  9: path
+  10: pathauto
+  11: rabbit_hole
+  12: rdf
+  13: smart_trim
+  14: text
+  15: user
+  16: varbase_seo
+  17: yoast_seo
+package: Varbase
+version: 8.4.03.0
+core: 8.x
+project: varbase
+datestamp: 1495111295
